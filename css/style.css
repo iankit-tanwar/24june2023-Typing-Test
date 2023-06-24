@@ -1,0 +1,86 @@
+.a_tbdr{
+    border: 1px solid red;
+}
+.container{
+    
+    height: 900px;
+    border: 8px solid #6552CD;
+}
+.a_display{
+    height: 280px;
+}
+
+.a_hand{
+    height: 270px;
+}
+.a_hand{
+    background-image: url(../img/hand.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+.a_btn{
+    height: 50px;
+    width: 50px;
+    background:red !important
+}
+
+.a_keybord {
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .row2 {
+    display: flex;
+    height: 50px;
+   
+    
+  }
+  
+  .key {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  .key2{
+    width: 80px !important;
+  }
+  .key3{
+    width: 50px !important;
+  }
+  .k_space{
+    width: 300px !important;
+  }
+  .keyctrl{
+    width: 72px !important;
+  }
+
+  .keyblue{
+    background: #B1BDFE;
+   border: 1px solid #828dc8;
+  }
+  .keypinki{
+    background: #F7E1E1;
+    border: 1px solid #cdb9b9;
+  }
+  .keygreen{
+    background: #DDF0D1;
+    border: 1px solid #bdd2af;
+  }
+
+.keypnk{
+    background: #D5BAF8;
+    border: 1px solid #a38ebf;
+}
+.keyspce{
+    background: #EDE4D4;
+    border: 1px solid #c9bfad;
+}
