@@ -1,0 +1,81 @@
+<div  class=" a_keybord">
+                    <div class="row row2  mt-5 a_keybord_size">
+                      <button class="key" style="background: #B1BDFE;">`</button>
+                      <button class="key" style="background: #B1BDFE;">1</button>
+                      <button class="key " style="background: #F7E1E1;">2</button>
+                      <button class="key " style="background: #DDF0D1;">3</button>
+                      <button class="key " style="background: #D5BAF8;">4</button>
+                      <button class="key " style="background: #D5BAF8;">5</button>
+                      <button class="key " style="background: #D5BAF8;">6</button>
+                      <button class="key " style="background: #D5BAF8;">7</button>
+                      <button class="key " style="background: #DDF0D1;">8</button>
+                      <button class="key" style="background: #B1BDFE;">9</button>
+                      <button class="key" style="background: #B1BDFE;">10</button>
+                      <button class="key" style="background: #B1BDFE;">+</button>
+                      <button class="key" style="background: #B1BDFE;">,</button>
+                      <button class="key  key2" style="background: #B1BDFE;">Back</button>
+                     
+                    </div>
+                    <div class="row ">
+                      <button class="key " style="background: #B1BDFE;">Tab</button>
+                      <button class="key" style="background: #B1BDFE;">W</button>
+                      <button class="key " style="background: #F7E1E1;">Q</button>
+                      <button class="key " style="background: #DDF0D1;">E</button>
+                      <button class="key " style="background: #D5BAF8;">R</button>
+                      <button class="key " style="background: #D5BAF8;">T</button>
+                      <button class="key " style="background: #D5BAF8;">Y</button>
+                      <button class="key " style="background: #D5BAF8;">U</button>
+                      <button class="key " style="background: #DDF0D1;">I</button>
+                      <button class="key" style="background: #B1BDFE;">O</button>
+                      <button class="key" style="background: #B1BDFE;">P</button>
+                      <button class="key" style="background: #B1BDFE;">{</button>
+                      <button class="key" style="background: #B1BDFE;">}</button>
+                      <button class="key  key2" style="background: #B1BDFE;">ENTER</button>
+                     
+                    </div>
+                    <div class="row ">
+                      <button class="key key2" style="background: #B1BDFE;">CAPS</button>
+                      <button class="key" style="background: #B1BDFE;">A</button>
+                      <button class="key " style="background: #F7E1E1;">S</button>
+                      <button class="key " style="background: #DDF0D1;">D</button>
+                      <button class="key " style="background: #D5BAF8;">F</button>
+                      <button class="key " style="background: #D5BAF8;">G</button>
+                      <button class="key " style="background: #D5BAF8;">H</button>
+                      <button class="key " style="background: #D5BAF8;">J</button>
+                      <button class="key " style="background: #DDF0D1;">K</button>
+                      <button class="key" style="background: #B1BDFE;">L</button>
+                      <button class="key" style="background: #B1BDFE;">;</button>
+                      <button class="key" style="background: #B1BDFE;">"</button>
+                      <button class="key" style="background: #B1BDFE;">'</button>
+                      <button class="key" style="background: #B1BDFE;">/</button>
+                     
+                    </div>
+                    <div class="row  ">
+                      <button class="key key2" style="background: #B1BDFE;">SHIFT</button>
+                      <button class="key" style="background: #B1BDFE;">Z</button>
+                      <button class="key" style="background: #B1BDFE;">X</button>
+                      <button class="key " style="background: #DDF0D1;">C</button>
+                      <button class="key " style="background: #D5BAF8;">V</button>
+                      <button class="key " style="background: #D5BAF8;">B</button>
+                      <button class="key " style="background: #D5BAF8;">N</button>
+                      <button class="key " style="background: #D5BAF8;">M</button>
+                      <button class="key " style="background: #DDF0D1;"></button>
+                      <button class="key" style="background: #B1BDFE;">></button>
+                      <button class="key" style="background: #B1BDFE;">/</button>
+                      <button class="key" style="background: #B1BDFE;">.</button>
+                      <button class="key key2" style="background: #B1BDFE;">SHIFT</button>
+                     
+                    </div>
+                    <div class="row  mb-5">
+                      <button class="key keyctrl" style="background: #B1BDFE;">Ctrl</button>
+                      <button class="key" style="background: #B1BDFE;">fn</button>
+                      <button class="key key3" style="background: #EDE4D4;">ALT</button>
+                      <button class="key k_space" style="background: #EDE4D4;">SPACE</button>
+                      <button class="key key3" style="background: #EDE4D4;">ALT </button>
+                      <button class="key" style="background: #B1BDFE;">fn</button>
+                      <button class="key keyctrl" style="background: #B1BDFE;">Ctrl</button>
+                     
+                     
+                    </div>
+                    <!-- Repeat the above row structure for other rows -->
+                  </div>

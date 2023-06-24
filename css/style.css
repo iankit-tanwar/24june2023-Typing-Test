@@ -1,86 +1,200 @@
-.a_tbdr{
-    border: 1px solid red;
-}
-.container{
-    
-    height: 900px;
-    border: 8px solid #6552CD;
-}
-.a_display{
-    height: 280px;
+.a_tbdr {
+  border: 1px solid red;
 }
 
-.a_hand{
-    height: 270px;
+.container {
+
+  height: 900px;
+  border: 8px solid #6552CD;
 }
-.a_hand{
-    background-image: url(../img/hand.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+
+.a_display {
+  height: 280px;
+}
+
+.a_hand {
+  height: 270px;
+}
+
+.a_hand {
+  background-image: url(../img/hand.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 
 }
-.a_btn{
-    height: 50px;
-    width: 50px;
-    background:red !important
-}
+
 
 .a_keybord {
-    height: 280px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .row2 {
-    display: flex;
-    height: 50px;
-   
-    
-  }
-  
-  .key {
-    width: 40px;
-    height: 40px;
-    margin: 2px;
-    
-    border-radius: 5px;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-  }
-  .key2{
-    width: 80px !important;
-  }
-  .key3{
-    width: 50px !important;
-  }
-  .k_space{
-    width: 300px !important;
-  }
-  .keyctrl{
-    width: 72px !important;
-  }
+  height: 280px;
 
-  .keyblue{
-    background: #B1BDFE;
-   border: 1px solid #828dc8;
-  }
-  .keypinki{
-    background: #F7E1E1;
-    border: 1px solid #cdb9b9;
-  }
-  .keygreen{
-    background: #DDF0D1;
-    border: 1px solid #bdd2af;
-  }
-
-.keypnk{
-    background: #D5BAF8;
-    border: 1px solid #a38ebf;
 }
-.keyspce{
-    background: #EDE4D4;
-    border: 1px solid #c9bfad;
+
+
+
+.button-pressed {
+  transform-origin: top left;
+  transform: scaleX(0.9) scaleY(0.9);
+
+}
+
+.a_spnblue {
+  width: 45px;
+  height: 45px;
+  background: #B1BDFE;
+  border-radius: 7px;
+
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+
+}
+
+.key:hover {
+  background: #B1BDFE;
+  border-right: 5px solid #828dc8;
+  border-bottom: 5px solid #828dc8;
+}
+
+.a_spnpinki {
+  width: 45px;
+  height: 45px;
+  background: #F7E1E1;
+  border-radius: 7px;
+ 
+}
+
+.keypinki {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+
+}
+
+.keypinki:hover {
+  background: #F7E1E1;
+  border-right: 5px solid #cdb9b9;
+  border-bottom: 5px solid #cdb9b9;
+}
+
+.a_spngreen {
+  width: 45px;
+  height: 45px;
+  background: #DDF0D1;
+  border-radius: 7px;
+
+}
+
+.keygreen {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+
+}
+
+.keygreen:hover {
+  background: #DDF0D1;
+  border-right: 5px solid #bdd2af;
+  border-bottom: 5px solid #bdd2af;
+}
+
+.a_spnpink {
+  width: 45px;
+  height: 45px;
+  background: #D5BAF8;
+  border-radius: 7px;
+
+}
+
+.keypnk {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+
+}
+
+.keypnk:hover {
+  background: #D5BAF8;
+  border-right: 5px solid #a38ebf;
+  border-bottom: 5px solid #a38ebf;
+}
+
+.a_spnback {
+  width: 78px;
+  background: #B1BDFE;
+  border-radius: 7px;
+}
+
+.key2 {
+  width: 80px !important;
+  border-radius: 7px;
+}
+
+.keyshift {
+  width: 90px !important;
+  border-radius: 7px;
+}
+
+.key3 {
+  width: 50px !important;
+  border-radius: 7px;
+}
+
+.k_space {
+  width: 388px !important;
+  border-radius: 7px;
+}
+
+.keyctrl {
+  width: 72px !important;
+  border-radius: 7px;
+}
+
+.keyblue {
+  background: #B1BDFE;
+  border-right: 5px solid #828dc8;
+  border-bottom: 5px solid #828dc8;
+}
+
+.keypinki {
+  background: #F7E1E1;
+  border-right: 5px solid #cdb9b9;
+  border-bottom: 5px solid #cdb9b9;
+}
+
+.keygreen {
+  background: #DDF0D1;
+  border-right: 5px solid #bdd2af;
+  border-bottom: 5px solid #bdd2af;
+}
+
+.keypnk {
+  background: #D5BAF8;
+
+  border-right: 5px solid #a38ebf;
+  border-bottom: 5px solid #a38ebf;
+
+}
+
+.a_keyspace {
+
+  height: 50px;
+  background: #EDE4D4;
+  border-radius: 7px;
+}
+
+.keyspce:hover {
+  background: #EDE4D4;
+  border-right: 5px solid #c9bfad;
+  border-bottom: 5px solid #c9bfad;
+}
+
+.keyspce {
+  height: 50px;
+  background: #EDE4D4;
+  border-right: 5px solid #c9bfad;
+  border-bottom: 5px solid #c9bfad;
 }
