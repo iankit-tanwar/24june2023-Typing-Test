@@ -31,13 +31,6 @@
 }
 
 
-
-.button-pressed {
-  transform-origin: top left;
-  transform: scaleX(0.9) scaleY(0.9);
-
-}
-
 .a_spnblue {
   width: 47px;
   height: 47px;
