@@ -18,7 +18,7 @@
   background: url("../img/hand.png") no-repeat;
   background-position: center;
   background-size: contain;
-  border: 1px dashed red;
+ 
 }
 
 
@@ -55,4 +55,15 @@
 .a_circle {
   width: 25px;
   height: 25px;
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+      max-width: 1440px;
+  }
 }
