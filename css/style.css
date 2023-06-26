@@ -18,6 +18,7 @@
   background: url("../img/hand.png") no-repeat;
   background-position: center;
   background-size: contain;
+  border: 1px dashed red;
 }
 
 
