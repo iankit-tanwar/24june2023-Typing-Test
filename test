@@ -1,0 +1,12 @@
+  <div class="a_hand position-relative mx-auto " style="z-index: 1000;">
+                    <div class="rounded-circle l_pinky bg-danger a_circle position-absolute " style="left: 65px;top:84px;"></div>
+                    <div class="rounded-circle l_ring bg-danger a_circle position-absolute " style="left: 90px;top:50px;"></div>
+                    <div class="rounded-circle l_middle bg-danger a_circle position-absolute " style="left: 124px;top:37px;"></div>
+                    <div class="rounded-circle l_index bg-danger a_circle position-absolute " style="left: 155px;top:50px;"></div>
+                    <div class="rounded-circle l_thumb bg-danger a_circle position-absolute " style="left: 190px;top:140px;"></div>
+                    <div class="rounded-circle r_thumb bg-danger a_circle position-absolute " style="left: 250px;top:140px;"></div>
+                    <div class="rounded-circle r_index bg-danger a_circle position-absolute " style="left: 298px;top:40px;"></div>
+                    <div class="rounded-circle r_middle bg-danger a_circle position-absolute " style="left: 334px;top:32px;"></div>
+                    <div class="rounded-circle r_ring bg-danger a_circle position-absolute " style="left: 369px;top:44px;"></div>
+                    <div class="rounded-circle r_pinky bg-danger a_circle position-absolute " style="left: 403px;top:88px;"></div>
+                </div>
