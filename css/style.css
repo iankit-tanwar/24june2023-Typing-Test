@@ -5,7 +5,7 @@
 .container {
 
   height: 900px;
-  border: 8px solid #6552CD;
+  border: 8px solid #724f51;
 }
 
 .a_display {
@@ -16,13 +16,7 @@
   height: 270px;
 }
 
-.a_hand {
-  background-image: url(../img/hand.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 
-}
 
 
 .a_keybord {
@@ -50,5 +44,10 @@ transform-origin: top left;
   box-shadow: 0px 0px 0px #0a0a0a;
  
   
+}
+
+.a_circle{
+  width: 25px;
+  height: 25px;
 }
 
