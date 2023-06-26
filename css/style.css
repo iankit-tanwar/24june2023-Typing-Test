@@ -12,42 +12,46 @@
   height: 280px;
 }
 
-.a_hand {
-  height: 270px;
+.a_hand{
+  width: 480px;
+  height:270px;
+  background: url("../img/hand.png") no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
-
 
 
 .a_keybord {
   height: 305px;
 
 }
-.a_key_size{
+
+.a_key_size {
   width: 50px;
   height: 50px;
 
-  
+
 }
-.a_key_size:hover{
+
+.a_key_size:hover {
   background: #a799f4;
 }
 
-.a_box_shadow{
+.a_box_shadow {
   box-shadow: 2px 2px 0px #88888d;
- 
+
 
 }
-.a_active:focus{
-transform-origin: top left;
-  transform: translate(1px,1px);
+
+.a_active:focus {
+  transform-origin: top left;
+  transform: translate(1px, 1px);
   box-shadow: 0px 0px 0px #0a0a0a;
- 
-  
+
+
 }
 
-.a_circle{
+.a_circle {
   width: 25px;
   height: 25px;
 }
-
