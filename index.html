@@ -471,6 +471,8 @@
 
 
                 console.log(e);
+
+
                 if (e.keyCode == 96) {
                     playSound();
                     console.log('hello');
@@ -483,6 +485,8 @@
 
 
                 }
+
+                //qaz keys
                 if (e.keyCode == 113) {
                     playSound();
                     console.log('hello');
@@ -518,7 +522,10 @@
                     lp.style.display = "block "
 
 
+
                 }
+                //wsx keys
+
                 if (e.keyCode == 119) {
                     playSound();
                     console.log('hello');
@@ -554,6 +561,8 @@
                     l_ring.style.display = "block "
                 }
 
+                ////edc keys
+
                 if (e.keyCode == 101) {
                     playSound();
                     console.log('hello');
@@ -584,6 +593,8 @@
                     console.log(l_middle)
                     l_middle.style.display = "block "
                 }
+
+                //rfv keys
                 if (e.keyCode == 114) {
                     playSound();
                     console.log('hello');
@@ -614,6 +625,8 @@
                     console.log(l_index)
                     l_index.style.display = "block "
                 }
+
+                //tgb keys
                 if (e.keyCode == 116) {
                     playSound();
                     console.log('hello');
@@ -644,6 +657,8 @@
                     console.log(l_index)
                     l_index.style.display = "block "
                 }
+
+                // yhn keys
                 if (e.keyCode == 121) {
                     playSound();
                     console.log('hello');
@@ -664,7 +679,7 @@
                     console.log(r_index)
                     r_index.style.display = "block "
                 }
-               
+
                 if (e.keyCode == 110) {
                     playSound();
                     console.log('hello');
@@ -675,6 +690,8 @@
                     console.log(r_index)
                     r_index.style.display = "block "
                 }
+
+                // ujm keys
                 if (e.keyCode == 117) {
                     playSound();
                     console.log('hello');
@@ -705,6 +722,8 @@
                     console.log(r_index)
                     r_index.style.display = "block "
                 }
+
+                // ik< keys
                 if (e.keyCode == 105) {
                     playSound();
                     console.log('hello');
@@ -735,6 +754,8 @@
                     console.log(r_middle)
                     r_middle.style.display = "block "
                 }
+
+                // ol> keys
                 if (e.keyCode == 111) {
                     playSound();
                     console.log('hello');
@@ -766,7 +787,7 @@
                     r_ring.style.display = "block "
                 }
 
-
+                // p;/ keys
                 if (e.keyCode == 112) {
                     playSound();
                     console.log('hello');
@@ -798,6 +819,8 @@
                     r_pinky.style.display = "block "
                 }
 
+                //thumb
+
                 if (e.keyCode == 32) {
                     playSound();
                     console.log('hello');
@@ -810,7 +833,7 @@
                 }
 
 
-               
+
 
 
 
@@ -818,12 +841,17 @@
             })
 
             document.addEventListener('keyup', (e) => {
+
+
                 console.log(e)
+
                 var element = document.querySelector('.a_active1');
                 element.classList.remove('focus');
                 let lp = document.querySelector('.a_p');
                 console.log(lp)
                 lp.style.display = "none "
+
+                //qaz keys
 
                 var element = document.querySelector('.a_active2');
                 element.classList.remove('focus');
@@ -844,6 +872,8 @@
                 console.log(z)
                 lp.style.display = "none "
 
+                 //wsx keys
+
                 var element = document.querySelector('.a_active_w');
                 element.classList.remove('focus');
                 let w = document.querySelector('.l_ring');
@@ -862,6 +892,8 @@
                 console.log(x)
                 w.style.display = "none "
 
+                 //edc keys
+
 
                 var element = document.querySelector('.a_active_e');
                 element.classList.remove('focus');
@@ -876,6 +908,8 @@
 
                 var element = document.querySelector('.a_active_c');
                 element.classList.remove('focus');
+
+                //rfv keys
 
 
                 var element = document.querySelector('.a_active_r');
@@ -892,10 +926,13 @@
                 var element = document.querySelector('.a_active_v');
                 element.classList.remove('focus');
 
+
+                //tgb keys
+
                 var element = document.querySelector('.a_active_t');
                 element.classList.remove('focus');
 
-               
+
                 console.log(l_index)
                 l_index.style.display = "none "
 
@@ -907,13 +944,17 @@
                 element.classList.remove('focus');
 
 
+                // right hand keys
+                // yhn keys
+
+
                 let r_index = document.querySelector('.r_index');
 
-              
+
                 var element = document.querySelector('.a_active_y');
                 element.classList.remove('focus');
 
-                
+
                 r_index.style.display = "none "
 
                 var element = document.querySelector('.a_active_h');
@@ -923,11 +964,13 @@
                 var element = document.querySelector('.a_active_n');
                 element.classList.remove('focus');
 
+                //ujm keys
+
                 var element = document.querySelector('.a_active_u');
                 element.classList.remove('focus');
 
-                
-                
+
+
 
                 var element = document.querySelector('.a_active_j');
                 element.classList.remove('focus');
@@ -937,6 +980,8 @@
                 element.classList.remove('focus');
 
 
+                // ik< keys
+
 
 
                 let r_middle = document.querySelector('.r_middle');
@@ -944,32 +989,36 @@
                 var element = document.querySelector('.a_active_i');
                 element.classList.remove('focus');
 
-                 var element = document.querySelector('.a_active_k');
+                var element = document.querySelector('.a_active_k');
                 element.classList.remove('focus');
 
 
                 var element = document.querySelector('.a_active__');
                 element.classList.remove('focus');
 
-                
+                // ol> keys
+
+
                 let r_ring = document.querySelector('.r_ring');
                 r_ring.style.display = "none "
                 var element = document.querySelector('.a_active_o');
                 element.classList.remove('focus');
 
-                 var element = document.querySelector('.a_active_l');
+                var element = document.querySelector('.a_active_l');
                 element.classList.remove('focus');
 
 
                 var element = document.querySelector('.a_active_ll');
                 element.classList.remove('focus');
 
+                // p;/ keys
+
                 let r_pinky = document.querySelector('.r_pinky');
                 r_pinky.style.display = "none "
                 var element = document.querySelector('.a_active_p');
                 element.classList.remove('focus');
 
-                 var element = document.querySelector('.a_active_p2');
+                var element = document.querySelector('.a_active_p2');
                 element.classList.remove('focus');
 
 
@@ -977,13 +1026,14 @@
                 element.classList.remove('focus');
 
 
+                // thumb
                 var element = document.querySelector('.a_active_sapce');
-                    element.classList.remove('focus');
+                element.classList.remove('focus');
                 let r_thumb = document.querySelector('.r_thumb');
                 r_thumb.style.display = "none "
 
 
-               
+
 
 
 

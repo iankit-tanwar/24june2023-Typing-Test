@@ -2,10 +2,13 @@
   border: 1px solid red;
 }
 
+
 .container {
 
   height: 900px;
   border: 8px solid #724f51;
+  box-shadow: 5px 5px 8px #724f51;
+ 
 }
 
 .a_display {
