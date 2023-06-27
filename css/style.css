@@ -44,7 +44,7 @@
 
 }
 
-.a_active:focus {
+.focus {
   transform-origin: top left;
   transform: translate(1px, 1px);
   box-shadow: 0px 0px 0px #0a0a0a;
@@ -52,8 +52,10 @@
 
 }
 
+
 .a_circle {
   width: 25px;
   height: 25px;
+  display: none;
 }
 

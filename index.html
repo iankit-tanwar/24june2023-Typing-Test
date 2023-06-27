@@ -14,7 +14,12 @@
 </head>
 
 <body>
-   
+
+    <audio controls class="a_play d-none">
+        <source src="./sound/k.mp3" type="audio/ogg">
+
+    </audio>
+
     <!-- Modal -->
     <div class="modal " id="registration" tabindex="-1" aria-labelledby="registrationLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -51,7 +56,7 @@
     <div class="container  rounded-4 overflow-hidden mt-3 ">
         <div class="row h-100">
             <div class="col-9 h-100" style="background: #e0d5de;">
-               
+
                 <div class="a_display mt-4  display-2 overflow-hidden p-2 ">
                     <p class="fw-medium">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -64,93 +69,118 @@
                 <div class=" a_keybord  rounded-4 mt-2" style="background: #EDEDED; border: 1px solid #EDEDED;">
                     <div class="a_key  mt-2  gap-2 d-flex justify-content-center ">
 
-                        <button class="btn  bg-white a_key_size  fw-bolder  a_active a_box_shadow position-relative">
-                            <span class="position-absolute" style="top: 0px; left: 3px;">~</span>`</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative">
+                            class="btn  bg-white a_key_size  fw-bolder  a_active1 a_aa a_box_shadow position-relative"
+                            onclick="playSound()">
+                            <span class="position-absolute" style="top: 0px; left: 3px;">~</span>`</button>
+                        <button class="btn ms-1  bg-white a_key_size  text-dark  a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">!</span>1</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 1px;">@</span>2</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">#</span>3</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">$</span>4</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">%</span>5</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">^</span>6</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">&</span>7</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">*</span>8</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">(</span>9</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">)</span>0</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">-</span>_</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">+</span>=</button>
                         <button class="btn ms-1  bg-white text-dark a_active a_box_shadow position-relative "
-                            style="height: 50px;">
+                            onclick="playSound()" style="height: 50px;">
                             Backspace</button>
 
                     </div>
                     <div class="a_key  mt-2  gap-2 d-flex justify-content-center">
 
                         <button class="btn   bg-white a_key_size  text-dark a_active a_box_shadow position-relative"
-                            style="width: 80px;">
+                            style="width: 80px;" onclick="playSound()">
                             Tab</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active2 a_box_shadow position-relative"
+                            onclick="playSound()">
                             Q</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_w a_box_shadow position-relative "
+                            onclick="playSound()">
                             W</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_e a_box_shadow position-relative "
+                            onclick="playSound()">
                             E</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_r a_box_shadow position-relative "
+                            onclick="playSound()">
                             R</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_t a_box_shadow position-relative "
+                            onclick="playSound()">
                             T</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_y a_box_shadow position-relative "
+                            onclick="playSound()">
                             Y</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_u a_box_shadow position-relative "
+                            onclick="playSound()">
                             U</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_i a_box_shadow position-relative "
+                            onclick="playSound()">
                             I</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_o a_box_shadow position-relative "
+                            onclick="playSound()">
                             O</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_p a_box_shadow position-relative "
+                            onclick="playSound()">
                             P</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">{</span>[</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">}</span>]</button>
                         <button
                             class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
-                            style="width: 68px;">
+                            onclick="playSound()" style="width: 68px;">
                             <span class="position-absolute" style="top: 0px; left: 3px;">|</span>\</button>
 
 
@@ -161,42 +191,53 @@
                             style="height: 50px;">
                             Caps Lock</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_a a_box_shadow position-relative "
+                            onclick="playSound()">
                             A</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_s a_box_shadow position-relative "
+                            onclick="playSound()">
                             S</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_d a_box_shadow position-relative "
+                            onclick="playSound()">
                             D</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_f a_box_shadow position-relative "
+                            onclick="playSound()">
                             F</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_g a_box_shadow position-relative "
+                            onclick="playSound()">
                             G</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_h a_box_shadow position-relative "
+                            onclick="playSound()">
                             H</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_j a_box_shadow position-relative "
+                            onclick="playSound()">
                             J</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_k a_box_shadow position-relative "
+                            onclick="playSound()">
                             K</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_l a_box_shadow position-relative "
+                            onclick="playSound()">
                             L</button>
 
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_p2 a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">;</span>:</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">"</span>'</button>
                         <button
                             class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
-                            style="width: 114px;">
+                            onclick="playSound()" style="width: 114px;">
                             Enter</button>
 
 
@@ -204,43 +245,53 @@
                     <div class="a_key  mt-2  gap-2 d-flex justify-content-center">
 
                         <button class="btn   bg-white   text-dark a_active a_box_shadow position-relative"
-                            style="height: 50px; width: 136px;">
+                            style="height: 50px; width: 136px;" onclick="playSound()">
                             Shift</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_z a_box_shadow position-relative"
+                            onclick="playSound()">
                             Z</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_x a_box_shadow position-relative "
+                            onclick="playSound()">
                             X</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_c a_box_shadow position-relative "
+                            onclick="playSound()">
                             C</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_v a_box_shadow position-relative "
+                            onclick="playSound()">
                             V</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_b a_box_shadow position-relative "
+                            onclick="playSound()">
                             B</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_n a_box_shadow position-relative "
+                            onclick="playSound()">
                             N</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_m a_box_shadow position-relative "
+                            onclick="playSound()">
                             M</button>
 
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active__ a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">
                                 < </span>,</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_ll a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">></span>.</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_p3 a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">?</span>/</button>
                         <button
                             class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
-                            style="width: 135px;">
+                            onclick="playSound()" style="width: 135px;">
                             Shift</button>
 
 
@@ -248,34 +299,40 @@
                     <div class="a_key  mt-2  gap-2 d-flex justify-content-center">
 
                         <button class="btn   bg-white   text-dark a_active a_box_shadow position-relative"
-                            style="height: 50px; width: 90px;">
+                            onclick="playSound()" style="height: 50px; width: 90px;">
                             Ctrl</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">fn</span></button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <i class="fa-brands fa-windows"></i></button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             Alt</button>
+
+                        <button
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active_sapce a_box_shadow position-relative "
+                            onclick="playSound()" style="width: 327px;"></button>
 
                         <button
                             class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
-                            style="width: 327px;"></button>
-
-                        <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            onclick="playSound()">
                             Alt</button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <span class="position-absolute" style="top: 0px; left: 3px;">fn</span></button>
                         <button
-                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative ">
+                            class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
+                            onclick="playSound()">
                             <i class="fa-solid fa-bars"></i></button>
                         <button
                             class="btn ms-1  bg-white a_key_size  text-dark a_active a_box_shadow position-relative "
-                            style="width: 90px;">
+                            onclick="playSound()" style="width: 90px;">
                             Ctrl</button>
 
 
@@ -287,16 +344,26 @@
                 </div>
                 <div class="a_hand  mx-auto " style="z-index: 1000;">
                     <div class="position-relative mx-auto">
-                        <div class="rounded-circle l_pinky bg-danger a_circle position-absolute " style="left: 65px;top:84px;"></div>
-                        <div class="rounded-circle l_ring bg-danger a_circle position-absolute " style="left: 90px;top:50px;"></div>
-                        <div class="rounded-circle l_middle bg-danger a_circle position-absolute " style="left: 124px;top:37px;"></div>
-                        <div class="rounded-circle l_index bg-danger a_circle position-absolute " style="left: 155px;top:50px;"></div>
-                        <div class="rounded-circle l_thumb bg-danger a_circle position-absolute " style="left: 190px;top:140px;"></div>
-                        <div class="rounded-circle r_thumb bg-danger a_circle position-absolute " style="left: 250px;top:140px;"></div>
-                        <div class="rounded-circle r_index bg-danger a_circle position-absolute " style="left: 298px;top:40px;"></div>
-                        <div class="rounded-circle r_middle bg-danger a_circle position-absolute " style="left: 334px;top:32px;"></div>
-                        <div class="rounded-circle r_ring bg-danger a_circle position-absolute " style="left: 369px;top:44px;"></div>
-                        <div class="rounded-circle r_pinky bg-danger a_circle position-absolute " style="left: 403px;top:88px;"></div>
+                        <div class="rounded-circle l_pinky bg-danger a_circle position-absolute a_p"
+                            style="left: 65px;top:84px;"></div>
+                        <div class="rounded-circle l_ring bg-danger a_circle position-absolute "
+                            style="left: 90px;top:50px;"></div>
+                        <div class="rounded-circle l_middle bg-danger a_circle position-absolute "
+                            style="left: 124px;top:37px;"></div>
+                        <div class="rounded-circle l_index bg-danger a_circle position-absolute "
+                            style="left: 155px;top:50px;"></div>
+                        <div class="rounded-circle l_thumb bg-danger a_circle position-absolute "
+                            style="left: 190px;top:140px;"></div>
+                        <div class="rounded-circle r_thumb bg-danger a_circle position-absolute "
+                            style="left: 250px;top:140px;"></div>
+                        <div class="rounded-circle r_index bg-danger a_circle position-absolute "
+                            style="left: 298px;top:40px;"></div>
+                        <div class="rounded-circle r_middle bg-danger a_circle position-absolute "
+                            style="left: 334px;top:32px;"></div>
+                        <div class="rounded-circle r_ring bg-danger a_circle position-absolute "
+                            style="left: 369px;top:44px;"></div>
+                        <div class="rounded-circle r_pinky bg-danger a_circle position-absolute "
+                            style="left: 403px;top:88px;"></div>
 
                     </div>
                 </div>
@@ -361,12 +428,24 @@
         }
 
         //IIFE == immedetialy invoke function expression
-        logout=()=>{
-          
+        logout = () => {
+
             window.localStorage.clear();
             //page reload
             window.location.reload();
         }
+
+        //Play Sound
+        playSound = () => {
+            //  alert('okay')
+            //  console.log( document.querySelector('.a_play'));
+            let p = document.querySelector('.a_play');
+            p.play();
+
+
+        }
+
+
 
         (() => {
 
@@ -384,11 +463,538 @@
                 modalInstance.show();
             }
 
-            if(fnn !== null){
-                document.querySelector('.a_welcome').innerHTML ="Welcome "+fnn+' '+lnn + '<i class="fa-solid fa-right-from-bracket ms-3 text-danger" onclick="logout()"></i>'
+            if (fnn !== null) {
+                document.querySelector('.a_welcome').innerHTML = "Welcome " + fnn + ' ' + lnn + '<i class="fa-solid fa-right-from-bracket ms-3 text-danger" onclick="logout()"></i>'
             }
 
-           
+            document.addEventListener('keypress', (e) => {
+
+
+                console.log(e);
+                if (e.keyCode == 96) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active1');
+                    element.classList.add('focus');
+
+                    let lp = document.querySelector('.a_p');
+                    console.log(lp)
+                    lp.style.display = "block "
+
+
+                }
+                if (e.keyCode == 113) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active2');
+                    element.classList.add('focus');
+
+                    let lp = document.querySelector('.a_p');
+                    console.log(lp)
+                    lp.style.display = "block "
+
+
+                }
+                if (e.keyCode == 97) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_a');
+                    element.classList.add('focus');
+
+                    let lp = document.querySelector('.a_p');
+                    console.log(lp)
+                    lp.style.display = "block "
+
+
+                }
+                if (e.keyCode == 122) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_z');
+                    element.classList.add('focus');
+
+                    let lp = document.querySelector('.a_p');
+                    console.log(lp)
+                    lp.style.display = "block "
+
+
+                }
+                if (e.keyCode == 119) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_w');
+                    element.classList.add('focus');
+
+                    let l_ring = document.querySelector('.l_ring');
+                    console.log(l_ring)
+                    l_ring.style.display = "block "
+
+
+                }
+                if (e.keyCode == 115) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_s');
+                    element.classList.add('focus');
+
+                    let l_ring = document.querySelector('.l_ring');
+                    console.log(l_ring)
+                    l_ring.style.display = "block "
+
+
+                }
+                if (e.keyCode == 120) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_x');
+                    element.classList.add('focus');
+
+                    let l_ring = document.querySelector('.l_ring');
+                    console.log(l_ring)
+                    l_ring.style.display = "block "
+                }
+
+                if (e.keyCode == 101) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_e');
+                    element.classList.add('focus');
+
+                    let l_middle = document.querySelector('.l_middle');
+                    console.log(l_middle)
+                    l_middle.style.display = "block "
+                }
+                if (e.keyCode == 100) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_d');
+                    element.classList.add('focus');
+
+                    let l_middle = document.querySelector('.l_middle');
+                    console.log(l_middle)
+                    l_middle.style.display = "block "
+                }
+                if (e.keyCode == 99) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_c');
+                    element.classList.add('focus');
+
+                    let l_middle = document.querySelector('.l_middle');
+                    console.log(l_middle)
+                    l_middle.style.display = "block "
+                }
+                if (e.keyCode == 114) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_r');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 102) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_f');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 118) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_v');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 116) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_t');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 103) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_g');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 98) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_b');
+                    element.classList.add('focus');
+
+                    let l_index = document.querySelector('.l_index');
+                    console.log(l_index)
+                    l_index.style.display = "block "
+                }
+                if (e.keyCode == 121) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_y');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+                if (e.keyCode == 104) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_h');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+               
+                if (e.keyCode == 110) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_n');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+                if (e.keyCode == 117) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_u');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+                if (e.keyCode == 106) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_j');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+                if (e.keyCode == 109) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_m');
+                    element.classList.add('focus');
+
+                    let r_index = document.querySelector('.r_index');
+                    console.log(r_index)
+                    r_index.style.display = "block "
+                }
+                if (e.keyCode == 105) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_i');
+                    element.classList.add('focus');
+
+                    let r_middle = document.querySelector('.r_middle');
+                    console.log(r_middle)
+                    r_middle.style.display = "block "
+                }
+                if (e.keyCode == 107) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_k');
+                    element.classList.add('focus');
+
+                    let r_middle = document.querySelector('.r_middle');
+                    console.log(r_middle)
+                    r_middle.style.display = "block "
+                }
+                if (e.keyCode == 44) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active__');
+                    element.classList.add('focus');
+
+                    let r_middle = document.querySelector('.r_middle');
+                    console.log(r_middle)
+                    r_middle.style.display = "block "
+                }
+                if (e.keyCode == 111) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_o');
+                    element.classList.add('focus');
+
+                    let r_ring = document.querySelector('.r_ring');
+                    console.log(r_ring)
+                    r_ring.style.display = "block "
+                }
+                if (e.keyCode == 108) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_l');
+                    element.classList.add('focus');
+
+                    let r_ring = document.querySelector('.r_ring');
+                    console.log(r_ring)
+                    r_ring.style.display = "block "
+                }
+                if (e.keyCode == 46) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_ll');
+                    element.classList.add('focus');
+
+                    let r_ring = document.querySelector('.r_ring');
+                    console.log(r_ring)
+                    r_ring.style.display = "block "
+                }
+
+
+                if (e.keyCode == 112) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_p');
+                    element.classList.add('focus');
+
+                    let r_pinky = document.querySelector('.r_pinky');
+                    console.log(r_pinky)
+                    r_pinky.style.display = "block "
+                }
+                if (e.keyCode == 59) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_p2');
+                    element.classList.add('focus');
+
+                    let r_pinky = document.querySelector('.r_pinky');
+                    console.log(r_pinky)
+                    r_pinky.style.display = "block "
+                }
+                if (e.keyCode == 47) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_p3');
+                    element.classList.add('focus');
+
+                    let r_pinky = document.querySelector('.r_pinky');
+                    console.log(r_pinky)
+                    r_pinky.style.display = "block "
+                }
+
+                if (e.keyCode == 32) {
+                    playSound();
+                    console.log('hello');
+                    var element = document.querySelector('.a_active_sapce');
+                    element.classList.add('focus');
+
+                    let r_thumb = document.querySelector('.r_thumb');
+                    console.log(r_thumb)
+                    r_thumb.style.display = "block "
+                }
+
+
+               
+
+
+
+
+            })
+
+            document.addEventListener('keyup', (e) => {
+                console.log(e)
+                var element = document.querySelector('.a_active1');
+                element.classList.remove('focus');
+                let lp = document.querySelector('.a_p');
+                console.log(lp)
+                lp.style.display = "none "
+
+                var element = document.querySelector('.a_active2');
+                element.classList.remove('focus');
+                let q = document.querySelector('.a_p');
+                console.log(q)
+                lp.style.display = "none "
+
+
+                var element = document.querySelector('.a_active_a');
+                element.classList.remove('focus');
+                let a = document.querySelector('.a_p');
+                console.log(a)
+                lp.style.display = "none "
+
+                var element = document.querySelector('.a_active_z');
+                element.classList.remove('focus');
+                let z = document.querySelector('.a_p');
+                console.log(z)
+                lp.style.display = "none "
+
+                var element = document.querySelector('.a_active_w');
+                element.classList.remove('focus');
+                let w = document.querySelector('.l_ring');
+                console.log(w)
+                w.style.display = "none "
+
+                var element = document.querySelector('.a_active_s');
+                element.classList.remove('focus');
+                let s = document.querySelector('.l_ring');
+                console.log(s)
+                s.style.display = "none "
+
+                var element = document.querySelector('.a_active_x');
+                element.classList.remove('focus');
+                let x = document.querySelector('.l_ring');
+                console.log(x)
+                w.style.display = "none "
+
+
+                var element = document.querySelector('.a_active_e');
+                element.classList.remove('focus');
+
+                let l_middle = document.querySelector('.l_middle');
+                console.log(l_middle)
+                l_middle.style.display = "none "
+
+                var element = document.querySelector('.a_active_d');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_c');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_r');
+                element.classList.remove('focus');
+
+                let l_index = document.querySelector('.l_index');
+                console.log(l_index)
+                l_index.style.display = "none "
+
+                var element = document.querySelector('.a_active_f');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_v');
+                element.classList.remove('focus');
+
+                var element = document.querySelector('.a_active_t');
+                element.classList.remove('focus');
+
+               
+                console.log(l_index)
+                l_index.style.display = "none "
+
+                var element = document.querySelector('.a_active_g');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_b');
+                element.classList.remove('focus');
+
+
+                let r_index = document.querySelector('.r_index');
+
+              
+                var element = document.querySelector('.a_active_y');
+                element.classList.remove('focus');
+
+                
+                r_index.style.display = "none "
+
+                var element = document.querySelector('.a_active_h');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_n');
+                element.classList.remove('focus');
+
+                var element = document.querySelector('.a_active_u');
+                element.classList.remove('focus');
+
+                
+                
+
+                var element = document.querySelector('.a_active_j');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_m');
+                element.classList.remove('focus');
+
+
+
+
+                let r_middle = document.querySelector('.r_middle');
+                r_middle.style.display = "none "
+                var element = document.querySelector('.a_active_i');
+                element.classList.remove('focus');
+
+                 var element = document.querySelector('.a_active_k');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active__');
+                element.classList.remove('focus');
+
+                
+                let r_ring = document.querySelector('.r_ring');
+                r_ring.style.display = "none "
+                var element = document.querySelector('.a_active_o');
+                element.classList.remove('focus');
+
+                 var element = document.querySelector('.a_active_l');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_ll');
+                element.classList.remove('focus');
+
+                let r_pinky = document.querySelector('.r_pinky');
+                r_pinky.style.display = "none "
+                var element = document.querySelector('.a_active_p');
+                element.classList.remove('focus');
+
+                 var element = document.querySelector('.a_active_p2');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_p3');
+                element.classList.remove('focus');
+
+
+                var element = document.querySelector('.a_active_sapce');
+                    element.classList.remove('focus');
+                let r_thumb = document.querySelector('.r_thumb');
+                r_thumb.style.display = "none "
+
+
+               
+
+
+
+
+
+
+
+
+
+
+            })
 
 
         })();
